@@ -17,13 +17,13 @@
     "url": "git+https://github.com/unimonkiez/react-native-asset.git"
   },
   "keywords": [
-    "react-native",
-    "react",
-    "native",
-    "js",
     "asset",
     "assets",
-    "link"
+    "js",
+    "link",
+    "native",
+    "react",
+    "react-native"
   ],
   "author": "Yuval Saraf",
   "license": "ISC",
@@ -31,9 +31,6 @@
     "url": "https://github.com/unimonkiez/react-native-asset/issues"
   },
   "homepage": "https://github.com/unimonkiez/react-native-asset#readme",
-  "peerDependencies": {
-    "react-native": "^0.60.0"
-  },
   "dependencies": {
     "fs-extra": "^7.0.1",
     "npmlog": "^4.1.2",
@@ -46,5 +43,8 @@
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-plugin-import": "^2.8.0",
     "jest": "^22.1.4"
+  },
+  "peerDependencies": {
+    "react-native": "^0.60.0"
   }
 }
